@@ -16,7 +16,7 @@ public class TestInti implements CommandLineRunner {
         String bb = "bbbb";
         String tt = "bbbb";
 
-        NowaKlasa nowaKlasa = NowaKlasa.builder().jednoPole("zajebiscie").build();
+        NowaKlasa nowaKlasa = NowaKlasa.builder().jednoPole("zajebiscie").trzeciePole("bonzo").build();
 
         System.out.println(tt + s);
         System.out.println(ee + bb);

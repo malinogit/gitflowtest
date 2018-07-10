@@ -9,4 +9,5 @@ public class NowaKlasa {
 
     private String jednoPole;
     private String drugiePole;
+    private String trzeciePole;
 }
