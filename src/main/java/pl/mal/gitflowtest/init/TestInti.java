@@ -2,6 +2,7 @@ package pl.mal.gitflowtest.init;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import pl.mal.gitflowtest.NowaKlasa;
 
 @Component
 public class TestInti implements CommandLineRunner {
@@ -13,10 +14,13 @@ public class TestInti implements CommandLineRunner {
         String s = "dziala";
         String ee = "eeee";
         String bb = "bbbb";
+        String tt = "bbbb";
 
-        System.out.println(s + s);
+        NowaKlasa nowaKlasa = NowaKlasa.builder().jednoPole("zajebiscie").build();
+
+        System.out.println(tt + s);
         System.out.println(ee + bb);
         System.out.println(fa + fw);
-        System.out.println(s + s);
+        System.out.println(nowaKlasa);
     }
 }
