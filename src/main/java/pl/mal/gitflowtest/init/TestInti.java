@@ -10,7 +10,7 @@ public class TestInti implements CommandLineRunner {
     public void run(String... args) throws Exception {
         String s = "dziala";
         System.out.println(s + s);
-        System.out.println(s + s);
+        System.out.println(s + s + s + s);
         System.out.println(s + s);
     }
 }
